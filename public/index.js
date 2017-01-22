@@ -2,7 +2,7 @@ var taClient = new TradeoffAnalytics('ta');
 
 ta.Client.start(function(){
 //jsonファイルの取得
-  $.getJSON('data.json'),function(){
+  $.getJSON('problem.json'),function(){
     ta.Client.show(data);
     });
 
