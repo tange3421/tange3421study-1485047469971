@@ -1,10 +1,10 @@
 declared-services:
-  tradeoff-analytics-standard-service:
+  Tradeoff Analytics-dc:
     label: tradeoff_analytics
     plan: standard
 applications:
 - services:
-  - tradeoff-analytics-standard-service
+  - Tradeoff Analytics-dc
   name: tange3421study
   command: node app.js
   path: .
