@@ -1,12 +1,3 @@
-//applications:
-//- path: .
-//  memory: 256M
-//  instances: 1
-//  domain: mybluemix.net
-//  name: tange3421study
-//  host: tange3421study
-//  disk_quota: 1024M
-  
 declared-services:
   tradeoff-analytics-standard-service:
     label: tradeoff_analytics
